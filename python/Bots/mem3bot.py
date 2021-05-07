@@ -1,6 +1,6 @@
 # bot.py
 import os
-
+import crypto
 import discord
 from dotenv import load_dotenv
 
@@ -28,3 +28,4 @@ async def on_ready():
 
 
 client.run(TOKEN)
+
