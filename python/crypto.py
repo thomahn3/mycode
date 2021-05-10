@@ -4,8 +4,7 @@ import json
 
 def getprice(currency_money, currrency_crypto):
     response = requests.get(
-        f"https://api.coingecko.com/api/v3/simple/price?ids={currency_crypto}&vs_currencies={currency_money}"
-    )
+        f"https://api.coingecko.com/api/v3/simple/price?ids={currency_crypto}&vs_currencies={currency_money}")
     if response.status_code == 404:
         return 404
     json = response.json()
@@ -21,5 +20,6 @@ currency_crypto = input("What crypto do you wish to acess? (bitcoin,ethereum or 
 
 
 
-print(getprice(currency_money, currency_crypto))
+print("$"+ str(getprice(currency_money, currency_crypto)))
+
 
