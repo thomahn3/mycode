@@ -16,7 +16,7 @@ def getprice(currency_money, currrency_crypto):
 # text = json.dumps(obj, sort_keys=True, indent=4)
 # print(text)
 currency_money = input("What currency do you want? (usd or aud): ")
-currency_crypto = input("What crypto do you wish to acess? (bitcoin,ethereum or dogecoin): ")
+currency_crypto = input("What crypto do you wish to acess? (bitcoin, ethereum or dogecoin): ")
 
 
 
