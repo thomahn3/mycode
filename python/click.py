@@ -11,7 +11,7 @@ from pygame.locals import (
 pygame.init()
 
 #scoring
-score = if
+#score = if
 # Set up window
 screen = pygame.display.set_mode([500,500])
 
