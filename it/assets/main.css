@@ -44,6 +44,21 @@ a:visited {
     font-family: sans-serif
 }
 
+.twitchlogo {
+  width: 4%;
+  position: absolute;
+  top: 423px;
+  left: 575px;
+}
+
+.twitch {
+  font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 425px;
+    left: 625px;
+    font-family: sans-serif
+}
 
 * {
     margin: 0;
