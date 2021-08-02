@@ -5,16 +5,28 @@ body {
 }
 a {
   text-decoration: none;
+  color: #00adb5;
+}
+h1, h2, h3 {
   color: #14ffec;
 }
-
-h1, h2, h3, ul, p {
+ul, p {
   color: white;
 }
 p {
   font-size: 20px;
 }
 
+.bannerscale {
+  width: 100%;
+}
+
+.centerimg {
+  width:35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .topnav {
   overflow: hidden;
