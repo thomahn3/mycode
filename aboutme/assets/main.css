@@ -3,29 +3,14 @@
 body {
   font-family: 'Assistant', sans-serif;
 }
-a {
-  text-decoration: none;
-  color: #00adb5;
-}
-h1, h2, h3 {
-  color: #14ffec;
-}
-ul, p {
+h1, h2, h3, ul, p {
   color: white;
 }
 p {
   font-size: 20px;
 }
-
-.bannerscale {
-  width: 100%;
-}
-
-.centerimg {
-  width:35%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+a {
+  text-decoration: none;
 }
 
 .topnav {
@@ -120,7 +105,7 @@ a:hover.twitch {
 body, html {
   width: 100%;
   height: 100%;
-  background-color: #212121;
+  background-color: rgb(19, 19, 19);
 }
 
 .wrapper {
