@@ -11,7 +11,11 @@ h1, h2, h3 {
   color: #14ffec;
 }
 ul, p {
-  color: white;
+  color: rgb(252, 218, 218);
+}
+
+ul.circle {
+  list-style-type: circle;
 }
 p {
   font-size: 20px;
@@ -34,7 +38,6 @@ footer {
   position: absolute;
   width: 100%;
   height: 30px;
-  bottom: 0;
   text-align: center;
   background-color: #181818;
 }
@@ -72,66 +75,6 @@ footer {
 .topnav a.active {
   background-color: #14ffec;
   color: black;
-}
-
-a:hover.discord {
-  color: #5865f2;
-}
-
-a:hover.tiktok {
-  color: red;
-}
-
-a:hover.twitch {
-  color: #9146ff;
-}
-
-.discordlogo {
-  width: 5%;
-  position: absolute;
-  top: 425px;
-  left: 50px;
-}
-
-.discord {
-  font-size: 175%;
-  color: white;
-  position: absolute;
-  top: 425px;
-  left: 100px;
-  font-family: sans-serif;
-}
-
-.tiktoklogo {
-  width: 4%;
-  position: absolute;
-  top: 419px;
-  left: 335px;
-}
-
-.tiktok {
-  font-size: 175%;
-  color: white;
-  position: absolute;
-  top: 425px;
-  left: 375px;
-  font-family: sans-serif;
-}
-
-.twitchlogo {
-  width: 4%;
-  position: absolute;
-  top: 423px;
-  left: 575px;
-}
-
-.twitch {
-  font-size: 175%;
-  color: white;
-  position: absolute;
-  top: 425px;
-  left: 625px;
-  font-family: sans-serif;
 }
 
 * {
