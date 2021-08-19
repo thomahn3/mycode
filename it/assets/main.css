@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
-
+/* Text colour and font*/
 body {
   font-family: 'Assistant', sans-serif;
 }
@@ -21,25 +21,16 @@ p, ul {
   font-size: 20px;
 }
 
+p {
+  padding-right: 100px;
+  padding-left: 5px;
+}
+
 ul.a {
   color: #14ffec;
   font-size: 30px;
 }
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-  vertical-align: middle;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
+/* footer code*/
 #page-container {
   position: relative;
   min-height: 100vh;
@@ -57,7 +48,7 @@ ul.a {
   width: 100%;
   height: 5rem;            /* Footer height */
 }
-
+/*Image stretch*/
 .bannerscale {
   width: 100%;
 }
@@ -90,7 +81,7 @@ ul.a {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+/* Top nav css start*/
 .topnav {
   overflow: hidden;
   background-color: #323232;
@@ -115,7 +106,7 @@ ul.a {
   color: black;
 }
 
-
+/*genral touchups w/ background */
 
 * {
   margin: 0;
