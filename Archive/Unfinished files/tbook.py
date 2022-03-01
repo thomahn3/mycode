@@ -1,3 +1,4 @@
+#Was trying to automate opening textbook files on laptop
 import os
 import time
 from datetime import datetime 

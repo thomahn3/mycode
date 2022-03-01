@@ -1,3 +1,4 @@
+#Gets crypto prices while in school
 import requests
 import json
 

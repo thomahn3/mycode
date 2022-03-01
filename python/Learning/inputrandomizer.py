@@ -1,3 +1,4 @@
+# When you can't find a game to play
 import random
 print("Put in your favorite games below ! :)")
 

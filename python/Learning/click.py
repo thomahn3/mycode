@@ -1,3 +1,4 @@
+#I think it is a cps tester
 import pygame
 from pygame.locals import (
     K_UP,
