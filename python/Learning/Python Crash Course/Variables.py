@@ -1,4 +1,4 @@
 firstname = "ada"
 lastname = "lovelace"
 fullname = f"{firstname} {lastname}"
-print(fullname)
+print(f"Hello, {fullname.title()}!")
