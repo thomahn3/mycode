@@ -1,5 +1,10 @@
 import turtle
 
+def move_pen(x,y):
+    my_ttl.penup()
+    my_ttl.goto(x,y)
+    my_ttl.pendown()
+     
 # set up screen
 screen = 500
 window = turtle.Screen()
@@ -13,10 +18,8 @@ my_ttl.shape("turtle")
 ## Convert the code below using functions ##
 ############################################
 
-# move pen
-my_ttl.penup()
-my_ttl.goto(0,-200)
-my_ttl.pendown()
+# Move Pen
+move_pen(0,-200)
 
 # draw head
 my_ttl.color("black","yellow")
@@ -25,9 +28,7 @@ my_ttl.circle(200)
 my_ttl.end_fill()
 
 # move pen
-my_ttl.penup()
-my_ttl.goto(-75,0)
-my_ttl.pendown()
+move_pen(-75,0)
 
 # draw eye
 my_ttl.color("black","black")
@@ -36,9 +37,7 @@ my_ttl.circle(50)
 my_ttl.end_fill()
 
 # move pen
-my_ttl.penup()
-my_ttl.goto(75,0)
-my_ttl.pendown()
+move_pen(75,0)
 
 # draw eye
 my_ttl.color("black","black")
@@ -47,9 +46,7 @@ my_ttl.circle(50)
 my_ttl.end_fill()
 
 # move pen
-my_ttl.penup()
-my_ttl.goto(-100,-75)
-my_ttl.pendown()
+move_pen(-100,-75)
 
 # draw mouth
 my_ttl.color("black","black")

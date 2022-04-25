@@ -14,7 +14,7 @@ window.setup(screen,screen)
 fred = turtle.Turtle()
 fred.shape("turtle")
 
-sides = 9
-length = 100
+sides = int(input("How many sides? ->"))
+length = int(input("How long are the sides? ->"))
 
 draw_poly(length,sides)

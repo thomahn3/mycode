@@ -5,7 +5,7 @@ import turtle
 ###################################################
 
 screen = 500
-sides = 6
+sides = 5
 length = 100
 
 window = turtle.Screen()

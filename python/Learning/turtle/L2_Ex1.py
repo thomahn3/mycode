@@ -10,3 +10,6 @@ myTtl = turtle.Turtle()
 ##############################
 
 
+for _ in range(4):
+    myTtl.forward(100)
+    myTtl.right(90)

@@ -5,8 +5,8 @@ import turtle
 #################################################
 
 screen = 500
-sides = 6
-length = 100
+sides = 32
+length = 10
 
 turtle.screensize(500,500)
 my_ttl = turtle.Turtle()

@@ -9,3 +9,9 @@ wn.setup(500, 500)
 myTtl = turtle.Turtle()
 
 ## Write your code below this line ##
+
+myTtl.forward(100)
+myTtl.right(120)
+myTtl.forward(100)
+myTtl.right(120)
+myTtl.forward(100)
