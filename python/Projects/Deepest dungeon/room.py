@@ -8,6 +8,7 @@ class Room():
         self.description = None
         self.linked_rooms = {}
         self.character = None
+        self.item = None
 
     def describe(self):
         # Display a description og the room in the UI.
@@ -15,6 +16,8 @@ class Room():
         print(self.description)
         if self.character is not None:
             self.character.describe()
+        if self.item is not None:
+            self.item.describe()
         for direction in self.linked_rooms:
             print(f"To the {direction} is the {self.linked_rooms[direction].name}")
 

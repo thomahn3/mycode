@@ -24,3 +24,36 @@ class Character():
             print(f"{self.name}: > {self.conversation}")
         else:
             print("The character doesn't want to talk to you.")
+
+class Friend(Character):
+
+    def __init__(self,name):
+        # Initilises teh friend object by calling the chracter init
+        super().__init__(name)
+
+    def hug(self):
+        # the friend responds to the hug
+        print(f"{self.name} hugs you back.")
+
+class Enemy(Character):
+
+    num_of_enemy = 0
+
+    def __init__(self,name):
+        # initilise the enemy object by calling the character init
+        super().__init__(name)
+        self.weakness = None
+        Enemy.num_of_enemy += 1
+    
+    def fight(self,item):
+        if item == self.weakness:
+            print(f"You strike {self.name} down with {item}.")
+            Enemy.num_of_enemy -= 1
+            return True
+        else:
+            print(f"{self.name} crushes you. Puny Adventurer.")
+            return False
+    
+    def get_num_of_ennemy():
+        # returns the amount of enemies remaining
+        return Enemy.num_of_enemy
